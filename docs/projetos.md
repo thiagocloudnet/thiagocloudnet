@@ -24,16 +24,17 @@ Código acadêmico Java com classes de interface, árvore e persistência; não 
 - Licença: não declarada.
 - Atualização de metadados: 2026-05-20T03:11:40Z.
 
-## atendente-educacao
+## AIDoutor
 
-[Repositório](https://github.com/thiagocloudnet/atendente-educacao)
+[Apresentação pública](https://github.com/thiagocloudnet/aidoutor)
 
-Documentação Markdown e PDF; nenhum fonte Java publicado na árvore consultada.
+Novo repositório público de apresentação, criado em 17/10/2026. O repositório anteriormente catalogado como atendente-educacao foi renomeado para ai-doutor e tornou-se privado, mantendo seu histórico. Não representa uma aplicação pública disponível.
 
-- Linguagens por API: não identificadas.
-- README: presente; arquivado: não.
-- Licença: não declarada.
-- Atualização de metadados: 2026-04-30T19:06:40Z.
+## UPSaúde
+
+[Apresentação pública](https://github.com/thiagocloudnet/upsaude)
+
+Criada em 17/10/2026. Plataforma em desenvolvimento, com UPAR incorporado conceitualmente como módulo de Regulação. Apresentação baseada no contexto das conversas; código e testes dos legados não revalidados nesta atualização.
 
 ## cafe-expresso
 

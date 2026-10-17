@@ -61,7 +61,11 @@ Os endereços estavam acessíveis na auditoria; a disponibilidade dos serviços 
 
 ### Ecossistema Thiago.Cloud
 
-Também organizo propostas de sistemas de gestão, atendimento, identidade, dados, hospedagem, saúde, apoio acadêmico, pagamentos, jurídico e acessibilidade. UPainel, UPZap, UPKey, UPDados, UPHost, UPSaúde, UPAR, SysFono, UPTCC, UzaPix, AdvOmnis e Acessai.Cloud são nomes declarados no planejamento: não representam produtos disponíveis ou funcionalidades comprovadas por esta auditoria.
+Também organizo propostas de sistemas de gestão, atendimento, identidade, dados, hospedagem, saúde, apoio acadêmico, pagamentos, jurídico e acessibilidade. UPainel, UPZap, UPKey, UPDados, UPHost, SysFono, UPTCC, UzaPix, AdvOmnis e Acessai.Cloud são nomes declarados no planejamento: não representam produtos disponíveis ou funcionalidades comprovadas por esta auditoria.
+
+[AIDoutor](https://github.com/thiagocloudnet/aidoutor) apresenta a proposta de agente de engenharia de software; o desenvolvimento fica em repositório privado separado.
+
+[UPSaúde](https://github.com/thiagocloudnet/upsaude) é a plataforma de saúde em desenvolvimento, anteriormente referida como UPAR. A regulação UPAR passa a ser um módulo interno; a consolidação dos legados ainda depende de validação.
 
 ## GitHub em números
 
