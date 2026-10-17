@@ -1,0 +1,11 @@
+name: Validar perfil
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/verificar_links.py
+      - run: python3 -m py_compile scripts/*.py

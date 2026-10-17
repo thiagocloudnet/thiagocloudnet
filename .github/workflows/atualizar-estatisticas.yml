@@ -1,0 +1,29 @@
+name: Atualizar estatísticas
+on:
+  schedule:
+    - cron: '17 9 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: estatisticas
+  cancel-in-progress: false
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Coletar dados públicos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/atualizar_estatisticas.py
+      - run: python3 scripts/verificar_links.py
+      - name: Versionar gráficos
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/stats.svg assets/linguagens.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "docs: atualizar estatísticas públicas"
+            git push
+          fi
